@@ -3,3 +3,6 @@ body{font-family: "Roboto", serif;}
 *{margin: 0px; padding: 0px; box-sizing: border-box;}
 .container-fluid{padding: 0px 45px;}
 .cursor{cursor: pointer;}
+
+.bg-g, .bg-success{background: #3bb77e;}
+.text-g{color: #3bb77e;}

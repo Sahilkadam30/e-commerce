@@ -1,0 +1,65 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css);
+
+.homeslider
+{
+    padding: 30px 0px;
+}
+.home_slider_main{
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.slick-arrow{
+    position: absolute;
+    top: 47%;
+    width: 40px;
+    height: 40px;
+    border-radius: 45%;
+    /*background: #3bb77e;*/
+    z-index: 1000;
+}
+.slick-next{
+    right: 1%;
+}
+.slick-prev{
+    left: 1%;
+}
+.slick-prev:hover, .slick-next:hover{
+    background: #3bb77e;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 30px;
+}
+.slick-dots button::before{
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+}
+.slick-dots li button:before{
+    font-size: 9px;
+}
+.home_slider_main .item{
+    position: relative;
+
+}
+.home_slider_main .item .info{
+    position: absolute;
+    top: 18%;
+    left: 12%;
+    z-index: 100;
+}
+.home_slider_main .item .info h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgba(0,0,0,1);
+}
+.home_slider_main .item .info p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.8);
+}
