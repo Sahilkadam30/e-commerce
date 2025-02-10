@@ -6,3 +6,8 @@ body{font-family: "Roboto", serif;}
 
 .bg-g, .bg-success{background: #3bb77e;}
 .text-g{color: #3bb77e;}
+
+.hd{
+    font-size: 35px;
+    font-weight: 600;
+}

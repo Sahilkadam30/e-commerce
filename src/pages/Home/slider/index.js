@@ -4,6 +4,7 @@ import './index.css';
 
 import slide1 from '../../../assets/images/slider1.png';
 import slide2 from '../../../assets/images/slider2.png';
+import Button from '@mui/material/Button';
 
 const HomeSlider = () => {
 
@@ -18,7 +19,7 @@ const HomeSlider = () => {
       };
     return (
         <section className='homeslider'>
-            <div className='container-fluid'>
+            <div className='container-fluid position-relative'>
                 <Slider {...settings} className='home_slider_main'>
                     <div className='item'> 
                         <img src={slide1} className='w-100' />
@@ -43,6 +44,11 @@ const HomeSlider = () => {
                         </div>
                     </div>
                 </Slider>
+
+                <div className='newsLetterBanner'>
+                    <input type='text' placeholder='Your email address' />
+                    <button className='bg-g'>Subscribe</button>
+                </div>
 
             </div>
         </section>

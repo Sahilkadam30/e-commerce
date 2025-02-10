@@ -63,3 +63,35 @@
     font-weight: 600;
     color: rgba(0,0,0,0.8);
 }
+.homeslider .newsLetterBanner{
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    bottom: 320px;
+    left: 14%;
+    z-index: 10;
+}
+.homeslider .newsLetterBanner input{
+    width: 80%;
+    height: 90%;
+    background: #fff;
+    border-radius: 30px;
+    border: 0px ;
+    outline: none;
+    padding-left: 40px;
+    padding-right: 145px;
+    font-size: 18px;
+}
+.homeslider .newsLetterBanner button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    height: 90%;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
