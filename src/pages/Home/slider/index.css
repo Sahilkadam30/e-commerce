@@ -16,7 +16,9 @@
     width: 40px;
     height: 40px;
     border-radius: 45%;
-    /*background: #3bb77e;*/
+    background-color: #3bb77e;
+    border-style: solid;
+    border-color: rgb(134, 127, 127);
     z-index: 1000;
 }
 .slick-next{
