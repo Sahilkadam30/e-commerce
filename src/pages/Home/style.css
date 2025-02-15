@@ -1,0 +1,43 @@
+.homeproducts{
+    margin-bottom: 200px;
+    padding: 25px 0px;
+}
+.filtertab {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 25px; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+.filtertab li{
+    float: right;  
+}
+.filtertab li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.filtertab li a:hover{
+    color: #3bb77e;
+    top: -10px;
+}
+
+.homeproducts .productrow{
+    display: flex;
+    padding: 30px 0px;
+    margin: 0px -70px;
+    flex-wrap: wrap;
+}
+.homeproducts .productrow .item{
+    width: 18%;
+    padding: 15px 15px;
+}
+.productrow {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}

@@ -7,8 +7,7 @@
     padding-right: 20px;
 }
 .cat_slider_main .item{
-    padding-top: 15px;
-    margin-top: 15px;
+    padding: 15px 0px;
     height: 190px;
     display: flex;
     align-items: center;
@@ -21,7 +20,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 15px;
+    padding: 13px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
 }
 .cat_slider_main .item .image{
     width: 100px;
@@ -38,8 +39,8 @@
     font-size: 16px;
     opacity: 0.8;
     color: #000;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 7px;
 }
 .cat_slider_main .slick-arrow.slick-next{
     top: -25px;
@@ -54,4 +55,9 @@
 }
 .cat_slider_main .slick-arrow{
     zoom: 80%;
+}
+
+.cat_slider_main .item:hover .info{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: scale(1.1);
 }
