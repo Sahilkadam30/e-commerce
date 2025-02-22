@@ -3,6 +3,9 @@ import './style.css';
 import Rating from '@mui/material/Rating';
 import { Link } from 'react-router-dom';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import CompareArrowsOutlinedIcon from '@mui/icons-material/CompareArrowsOutlined';
+import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 
 const Product = () => {
     return(
@@ -10,6 +13,26 @@ const Product = () => {
             <Link>
                 <div className='imgwrapper'>
                     <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg" className='productimg'/>
+
+                    <div className='overlay'>
+                        <ul className='list list-inline mb-0'>
+                            <li className='list-inline-item'>
+                                <a className='cursor'>
+                                    <FavoriteBorderOutlinedIcon/>
+                                </a>
+                            </li>
+                            <li className='list-inline-item'>
+                                <a className='cursor'>
+                                    <CompareArrowsOutlinedIcon/>
+                                </a>
+                            </li>
+                            <li className='list-inline-item'>
+                                <a className='cursor'>
+                                    <RemoveRedEyeOutlinedIcon/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </Link>
 
